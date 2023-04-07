@@ -1,0 +1,152 @@
+<script src="Header.js"></script>
+<script src="api/jquery-3.6.4.min.js"></script>
+<script src="api/customer.js"></script>
+<!-- end app-navbar -->
+<!-- begin app-main -->
+<div class="app-main" id="main">
+    <!-- begin container-fluid -->
+    <div class="container-fluid">
+        <!-- begin row -->
+        <div class="row">
+            <div class="col-md-12 m-b-30">
+                <!-- begin page title -->
+                <div class="d-block d-lg-flex flex-nowrap align-items-center">
+                    <div class="page-title mr-4 pr-4 border-right">
+                        <h1>Customer</h1>
+                    </div>
+                    <div class="breadcrumb-bar align-items-center">
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="card card-statistics">
+                    <div class="card-body">
+                        <div class="datatable-wrapper table-responsive">
+                            <table id="datatable" class="display compact table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Address</th>
+                                        <th scope="col">Mobile Number</th>
+                                        <th scope="col">BirthDay</th>
+                                        <th scope="col">Password</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="prodTable">
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="col-xl-6">
+                    <div class="card card-statistics">
+                        <div class="card-header">
+                            <div class="card-heading">
+                                <h4 class="card-title">Default</h4>
+                            </div>
+                        </div>
+                        <div class="card-body">
+
+                            <div class="row mb-3">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Customer ID</label>
+                                <div class="col-sm-10">
+                                    <input type="text" disabled class="form-control" id="input1">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Customer Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="input2">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Customer Birthday</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="input3">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Customer Address</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="input4">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Customer Mobile Number</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="input5">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="input6">
+                                </div>
+                            </div>
+        
+                                <button type="submit" class="btn btn-success fw-bold" onclick="saveEmp()">Submit</button>
+                            <button type="reset" class="btn btn-secondary fw-bold" onclick="updateEmp()">Update</button>
+                            <button type="reset" class="btn btn-danger fw-bold " onclick="deleteEmp()">Delete</button>
+                            <button type="reset" class="btn btn-warning fw-bold text-dark" onclick="resetEmp()">Reset</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+                   
+         
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <!-- end app-main -->
+</div>
+<!-- end app-container -->
+<!-- begin footer -->
+<!-- end footer -->
+</div>
+<!-- end app-wrap -->
+</div>
+<!-- end app -->
+
+<!-- plugins -->
+<script src="assets/js/vendors.js"></script>
+
+<!-- custom app -->
+<script src="assets/js/app.js"></script>
+</body>
+
+
+</html>
