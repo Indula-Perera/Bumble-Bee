@@ -26,9 +26,7 @@ const Header = () => {
         isActive ? "bg-primary py-4 shadow-md" : "bg-none py-6"
       } fixed w-full z-10 transition-all` } >
         <
-        div className = "container mx-auto flex items-center justify-between h-full" >
-
-        { /* logo */ } <
+        div className = "container mx-auto flex items-center justify-between h-full" > { /* logo */ } { " " } <
         Link to = { "/home" } >
         <
         div >
@@ -37,19 +35,19 @@ const Header = () => {
         src = { Logo }
         alt = "" / >
         <
-        h3 > Bumble Bee Camera Store < /h3> <
-        /div> <
-        /Link> { /* cart */ } <
+        h3 > Bumble Bee Camera Store < /h3>{" "} <
+        /div>{" "} <
+        /Link>{" "} { /* cart */ } { " " } <
         div onClick = {
             () => setIsOpen(!isOpen) }
         className = "cursor-pointer flex relative" >
         <
         BsBag className = "text-2xl text-black" / >
         <
-        div className = "bg-red-500  absolute -right-2 -bottom-2 text-[12px] w-[18px] h-[18px] text-black rounded-full flex justify-center items-center" > { itemAmount } <
-        /div> <
-        /div> <
-        /div> <
+        div className = "bg-red-500  absolute -right-2 -bottom-2 text-[12px] w-[18px] h-[18px] text-black rounded-full flex justify-center items-center" > { " " } { itemAmount } { " " } <
+        /div>{" "} <
+        /div>{" "} <
+        /div>{" "} <
         /header>
     );
 };
